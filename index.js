@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const parkings = require('./parkings.json')
-
+const reservations = require('./reservations.json')
 app.use(express.json())
 
 app.listen(8080, () => {
